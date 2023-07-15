@@ -1,8 +1,8 @@
 {
   "name": "react-chakra-editable-label",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A react label component that is editable and uses Chakra UI",
-  "main": "src/index.tsx",
+  "main": "dist/react-chakra-editable-label.dist.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
