@@ -1,0 +1,62 @@
+{
+  "name": "react-chakra-editable-label",
+  "version": "1.0.0",
+  "description": "A react label component that is editable and uses Chakra UI",
+  "main": "src/index.tsx",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch",
+    "build": "webpack --mode=production",
+    "clean": "rm -f ./dist/*",
+    "prepublish": "npm run clean && npm run build",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amanuela97/react-chakra-editable-label.git"
+  },
+  "keywords": [
+    "editable",
+    "label",
+    "react",
+    "chakra"
+  ],
+  "author": "Amanuel Zewdie Ayezabu <babyzewdie@gmail.com> (https://amanuel-zewdie.netlify.app/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/amanuela97/react-chakra-editable-label/issues"
+  },
+  "homepage": "https://github.com/amanuela97/react-chakra-editable-label#readme",
+  "devDependencies": {
+    "@babel/core": "7.22.9",
+    "@babel/plugin-proposal-class-properties": "7.18.6",
+    "@babel/plugin-proposal-decorators": "7.22.7",
+    "@babel/plugin-transform-react-constant-elements": "7.22.5",
+    "@babel/plugin-transform-react-inline-elements": "7.22.5",
+    "@babel/preset-env": "7.22.9",
+    "@babel/preset-typescript": "7.22.5",
+    "@storybook/addon-essentials": "7.0.27",
+    "@storybook/addon-interactions": "7.0.27",
+    "@storybook/addon-links": "7.0.27",
+    "@storybook/blocks": "7.0.27",
+    "@storybook/react": "7.0.27",
+    "@storybook/react-webpack5": "7.0.27",
+    "@storybook/testing-library": "0.0.14-next.2",
+    "@types/react": "18.2.15",
+    "@types/react-dom": "18.2.7",
+    "babel-loader": "9.1.3",
+    "storybook": "7.0.27",
+    "ts-loader": "9.4.4",
+    "typescript": "5.1.6",
+    "webpack": "5.88.1",
+    "webpack-cli": "5.1.4",
+    "webpack-notifier": "1.15.0"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "2.7.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  }
+}
