@@ -9,6 +9,7 @@ const APP_DIR = resolve(__dirname, 'src');
 
 const config = {
   mode: 'development',
+  devtool: 'source-map',
   entry: [APP_DIR + '/index.tsx'],
   output: {
     path: BUILD_DIR,

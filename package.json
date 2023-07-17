@@ -10,7 +10,7 @@
     "build": "webpack --mode=production",
     "clean": "rm -f ./dist/*",
     "prepublish": "npm run clean && npm run build",
-    "storybook": "storybook dev -p 6006",
+    "storybook": "storybook dev",
     "build-storybook": "storybook build"
   },
   "repository": {
