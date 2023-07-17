@@ -13,7 +13,7 @@ const config = {
   entry: [APP_DIR + '/index.tsx'],
   output: {
     path: BUILD_DIR,
-    filename: 'react-chakra-editable-label.dist.js',
+    filename: 'react-chakra-editable-label.js',
     library: {
       name: 'react-chakra-editable-label',
       type: 'umd',
