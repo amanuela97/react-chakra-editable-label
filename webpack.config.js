@@ -10,7 +10,7 @@ const APP_DIR = resolve(__dirname, 'src');
 const config = {
   mode: 'development',
   devtool: 'source-map',
-  entry: [APP_DIR + '/index.tsx'],
+  entry: [APP_DIR + '/index.ts'],
   output: {
     path: BUILD_DIR,
     filename: 'react-chakra-editable-label.js',

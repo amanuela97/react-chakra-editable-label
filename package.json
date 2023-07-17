@@ -3,7 +3,7 @@
   "version": "1.0.4",
   "description": "A react label component that is editable and uses Chakra UI",
   "main": "dist/react-chakra-editable-label.js",
-  "types": "dist/index",
+  "types": "dist/types/index",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

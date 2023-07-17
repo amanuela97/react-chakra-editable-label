@@ -1,6 +1,5 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { Box, Input, Text } from '@chakra-ui/react';
-import * as React from 'react';
 
 type Props = {
   text: string;

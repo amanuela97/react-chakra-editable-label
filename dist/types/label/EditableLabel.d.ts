@@ -1,7 +1,7 @@
-import * as React from 'react';
+import React from 'react';
 type Props = {
-  text: string;
-  onSave: (value: string) => void;
+    text: string;
+    onSave: (value: string) => void;
 };
 declare const EditableLabel: ({ text, onSave }: Props) => React.JSX.Element;
 export default EditableLabel;
