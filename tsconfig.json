@@ -1,15 +1,16 @@
 {
   "compilerOptions": {
     "declaration": true,
-    "declarationDir": "./dist/types",
-    "outDir": "./dist/",
+    "declarationDir": "types",
+    "outDir": "dist",
     "noImplicitAny": true,
-    "module": "es6",
-    "target": "es5",
+    "module": "ESNext",
+    "target": "ES2016",
     "jsx": "react",
     "allowJs": true,
     "moduleResolution": "node",
-    "allowSyntheticDefaultImports": true
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true
   },
   "exclude": ["./src/stories", "webpack.config.js"]
 }
