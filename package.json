@@ -1,6 +1,6 @@
 {
   "name": "react-chakra-editable-label",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "A react label component that is editable and uses Chakra UI",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
