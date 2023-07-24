@@ -1,5 +1,5 @@
 import { Meta, StoryObj } from '@storybook/react';
-import EditableLabel from '../components/EditableLabel';
+import EditableLabel from '../components/Label/EditableLabel';
 import { JSX } from 'react';
 import * as React from 'react';
 
